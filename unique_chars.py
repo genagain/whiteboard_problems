@@ -1,4 +1,5 @@
-import ipdb
+# Implement an algorithm to determin if a string has all unique characters.
+# What if you can not use a additional data structures?
 
 def unique_with_buffer(test_string):
   test_chars = list(test_string)
