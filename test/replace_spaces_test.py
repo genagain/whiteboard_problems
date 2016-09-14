@@ -8,8 +8,8 @@ import ipdb
 def replace_spaces(string):
     chars = list(string)
     for i, char in enumerate(chars):
-        last_index = len(chars) - 1
         if char == " ":
+            last_index = len(chars) - 1
             chars[i+3:last_index+2] = chars[i+1:last_index+1]
             chars[i:i+3] = ['%','2','0']
     return ''.join(chars)
