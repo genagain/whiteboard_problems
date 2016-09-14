@@ -1,6 +1,7 @@
 import unittest
 import ipdb
-import re
+
+# Write a method to decide if two strings are anagrams or not.
 
 def check_anagram(string1,string2):
   string1 = string1.lower().replace(' ', '')
